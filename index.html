@@ -212,8 +212,20 @@ Passionate about cloud computing and automation, I’m always learning and aimin
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p>A full-stack e-commerce solution with React frontend and Node.js backend, featuring user authentication, payment processing, and admin dashboard.</p>
+                        <h3>Microservice Voting App – Kubernetes Architecture</h3>
+                        <p>A Kubernetes-based microservices application where users vote between cats and dogs. The app is made up of 5 services deployed as Pods inside a Kubernetes cluster:
+
+			Vote: Frontend web app for casting votes
+
+			Result: Backend interface to view real-time results
+
+			Worker: Background service that moves votes from Redis to PostgreSQL
+
+			Redis: In-memory data store for temporary vote storage
+
+			PostgreSQL: Database for persistent vote storage
+
+			Prebuilt container images were used from public registries and deployed using Kubernetes YAML manifests. This project demonstrates how to manage multi-service applications with Kubernetes using Deployments, Services, ConfigMaps, and volume management.</p>
                         <div class="project-tech">
                             <span>React</span>
                             <span>Node.js</span>
