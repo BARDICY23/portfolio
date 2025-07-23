@@ -563,7 +563,7 @@ section {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #2563eb;
+    color: #ef4444;
 }
 
 .contact-info p {
@@ -585,7 +585,7 @@ section {
 }
 
 .contact-item i {
-    color: #2563eb;
+    color: #ef4444;
     font-size: 1.25rem;
     width: 20px;
 }
@@ -598,7 +598,7 @@ section {
 .social-link {
     width: 50px;
     height: 50px;
-    background: #2563eb;
+    background: #ef4444;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -610,7 +610,7 @@ section {
 
 .social-link:hover {
     background: #fff;
-    color: #2563eb;
+    color: #ef4444;
     transform: translateY(-3px);
 }
 
