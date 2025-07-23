@@ -322,34 +322,4 @@ style.textContent = `
         display: none;
     }
 `;
-document.head.appendChild(style);
-
-document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('contactForm');
-    const successMsg = document.getElementById('form-success-message');
-    if (form) {
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-            const formData = new FormData(form);
-            fetch('https://formsubmit.co/ahmedelbardicy18@gmail.com', {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
-            })
-                .then(response => {
-                    if (response.ok) {
-                        form.reset();
-                        form.style.display = 'none';
-                        successMsg.style.display = 'block';
-                    } else {
-                        alert('There was a problem sending your message. Please try again.');
-                    }
-                })
-                .catch(() => {
-                    alert('There was a problem sending your message. Please try again.');
-                });
-        });
-    }
-}); 
+document.head.appendChild(style); 
