@@ -213,19 +213,24 @@ Passionate about cloud computing and automation, I’m always learning and aimin
                     </div>
                     <div class="project-content">
                         <h3>Microservice Voting App – Kubernetes Architecture</h3>
-                        <p>A Kubernetes-based microservices application where users vote between cats and dogs. The app is made up of 5 services deployed as Pods inside a Kubernetes cluster:
-
-			Vote: Frontend web app for casting votes
-
-			Result: Backend interface to view real-time results
-
-			Worker: Background service that moves votes from Redis to PostgreSQL
-
-			Redis: In-memory data store for temporary vote storage
-
-			PostgreSQL: Database for persistent vote storage
-
-			Prebuilt container images were used from public registries and deployed using Kubernetes YAML manifests. This project demonstrates how to manage multi-service applications with Kubernetes using Deployments, Services, ConfigMaps, and volume management.</p>
+                        <p>A Kubernetes-based microservices application where users vote between cats and dogs.
+			    The system is composed of five services deployed as Pods inside a Kubernetes cluster.</p>
+			<ul>
+				    <li><strong>Vote:</strong> Frontend web app for casting votes</li>
+				        <li><strong>Result:</strong> Backend interface displaying real-time results</li>
+					    <li><strong>Worker:</strong> Background processor that moves votes from Redis to PostgreSQL</li>
+					        <li><strong>Redis:</strong> In-memory data store for fast vote handling</li>
+						    <li><strong>PostgreSQL:</strong> Relational database for persistent storage</li>
+						      </ul>
+						      <p>
+						          The app uses <strong>prebuilt container images</strong> pulled from public registries and is deployed using
+							      <strong>Kubernetes YAML manifests</strong>.
+							          This project demonstrates core Kubernetes concepts including:
+								    </p><ul>
+									        <li>Deployments</li>
+										    <li>Services</li>
+										        <li>Pods</li>
+											      </ul>
                         <div class="project-tech">
                             <span>React</span>
                             <span>Node.js</span>
