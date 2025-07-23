@@ -549,7 +549,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: #18181f;
+    background: #202040;
 }
 
 .contact-content {
@@ -563,7 +563,7 @@ section {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #fbbf24;
+    color: #2563eb;
 }
 
 .contact-info p {
@@ -581,11 +581,11 @@ section {
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
-    color: #e5e7eb;
+    color: #e0e7ff;
 }
 
 .contact-item i {
-    color: #fbbf24;
+    color: #2563eb;
     font-size: 1.25rem;
     width: 20px;
 }
@@ -598,8 +598,8 @@ section {
 .social-link {
     width: 50px;
     height: 50px;
-    background: #23233a;
-    color: #fbbf24;
+    background: #2563eb;
+    color: #fff;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -609,8 +609,8 @@ section {
 }
 
 .social-link:hover {
-    background: #fbbf24;
-    color: #23233a;
+    background: #fff;
+    color: #2563eb;
     transform: translateY(-3px);
 }
 
