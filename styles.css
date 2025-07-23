@@ -11,7 +11,7 @@ html {
 
 /* Dark Theme Base */
 body {
-    background: #101014;
+    background: #10291a;
     color: #e5e7eb;
 }
 
@@ -47,7 +47,7 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #fbbf24;
+    color: #10b981;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #fbbf24;
+    color: #10b981;
 }
 
 .nav-link::after {
@@ -81,7 +81,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #fbbf24;
+    background-color: #10b981;
     transition: width 0.3s ease;
 }
 
@@ -108,7 +108,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #18181f 0%, #23233a 100%);
+    background: linear-gradient(135deg, #143d2a 0%, #10291a 100%);
     color: #fff;
     padding-top: 80px;
 }
@@ -131,14 +131,14 @@ body {
 }
 
 .highlight {
-    color: #fbbf24;
+    color: #10b981;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    color: #fbbf24;
+    color: #10b981;
 }
 
 .hero-description {
@@ -167,26 +167,26 @@ body {
 }
 
 .btn-primary {
-    background: #fbbf24;
-    color: #18181f;
+    background: #10b981;
+    color: #10291a;
 }
 
 .btn-primary:hover {
-    background: #f59e0b;
+    background: #059669;
     color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(251, 191, 36, 0.3);
+    box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #fbbf24;
-    border: 2px solid #fbbf24;
+    color: #10b981;
+    border: 2px solid #10b981;
 }
 
 .btn-secondary:hover {
-    background: #fbbf24;
-    color: #18181f;
+    background: #10b981;
+    color: #10291a;
     transform: translateY(-2px);
 }
 
@@ -232,7 +232,7 @@ section {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: #fbbf24;
+    color: #10b981;
     position: relative;
 }
 
@@ -244,7 +244,7 @@ section {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: linear-gradient(135deg, #fbbf24 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
     border-radius: 2px;
 }
 
@@ -353,7 +353,7 @@ section {
     font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #fbbf24 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -368,7 +368,7 @@ section {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     flex-shrink: 0;
     box-sizing: border-box;
-    color: #fbbf24;
+    color: #10b981;
 }
 
 .skill-category h3::before {
@@ -379,7 +379,7 @@ section {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #fbbf24, #764ba2);
+    background: linear-gradient(90deg, #10b981, #059669);
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(251, 191, 36, 0.2);
 }
@@ -425,15 +425,15 @@ section {
 }
 
 .skill-item:hover {
-    background: rgba(251, 191, 36, 0.08);
-    border-color: #fbbf24;
+    background: rgba(16, 185, 129, 0.08);
+    border-color: #10b981;
     transform: translateX(8px) scale(1.02);
     box-shadow: 0 4px 15px rgba(102, 126, 234, 0.15);
 }
 
 .skill-item i {
     font-size: 1rem;
-    background: linear-gradient(135deg, #fbbf24, #764ba2);
+    background: linear-gradient(135deg, #10b981, #059669);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -441,7 +441,7 @@ section {
     text-align: center;
     filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
     flex-shrink: 0;
-    color: #fbbf24;
+    color: #10b981;
 }
 
 .skill-item span {
@@ -469,7 +469,7 @@ section {
 }
 
 .project-card {
-    background: #23233a;
+    background: #143d2a;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
@@ -479,12 +479,12 @@ section {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.1);
 }
 
 .project-image {
     height: 200px;
-    background: linear-gradient(135deg, #23233a 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #143d2a 0%, #10b981 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -492,7 +492,7 @@ section {
 
 .project-placeholder {
     font-size: 3rem;
-    color: #fbbf24;
+    color: #10b981;
 }
 
 .project-content {
@@ -503,7 +503,7 @@ section {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
-    color: #fbbf24;
+    color: #10b981;
 }
 
 .project-content p {
@@ -520,8 +520,8 @@ section {
 }
 
 .project-tech span {
-    background: #18181f;
-    color: #fbbf24;
+    background: #10291a;
+    color: #10b981;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.875rem;
@@ -534,7 +534,7 @@ section {
 }
 
 .project-link {
-    color: #fbbf24;
+    color: #10b981;
     text-decoration: none;
     font-weight: 500;
     display: flex;
@@ -549,7 +549,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: #202040;
+    background: #143d2a;
 }
 
 .contact-content {
@@ -563,7 +563,7 @@ section {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #ef4444;
+    color: #10b981;
 }
 
 .contact-info p {
@@ -585,7 +585,7 @@ section {
 }
 
 .contact-item i {
-    color: #ef4444;
+    color: #10b981;
     font-size: 1.25rem;
     width: 20px;
 }
@@ -598,7 +598,7 @@ section {
 .social-link {
     width: 50px;
     height: 50px;
-    background: #ef4444;
+    background: #10b981;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -610,7 +610,7 @@ section {
 
 .social-link:hover {
     background: #fff;
-    color: #ef4444;
+    color: #10b981;
     transform: translateY(-3px);
 }
 
@@ -651,8 +651,8 @@ section {
 
 /* Footer */
 .footer {
-    background: #101014;
-    color: #fbbf24;
+    background: #10291a;
+    color: #10b981;
     text-align: center;
     padding: 2rem 0;
 }
