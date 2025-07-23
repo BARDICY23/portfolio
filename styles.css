@@ -11,8 +11,8 @@ html {
 
 /* Dark Theme Base */
 body {
-    background: #e6f9f0;
-    color: #1a2e22;
+    background: #f5f6fa;
+    color: #222;
 }
 
 .container {
@@ -20,6 +20,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     background: #fff;
+    box-shadow: 0 2px 12px rgba(25, 135, 84, 0.04);
 }
 
 /* Navigation */
@@ -108,8 +109,8 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #e6f9f0 0%, #c6f6e0 100%);
-    color: #1a2e22;
+    background: linear-gradient(135deg, #f5f6fa 0%, #e9f7ef 100%);
+    color: #222;
     padding-top: 80px;
 }
 
@@ -131,14 +132,14 @@ body {
 }
 
 .highlight {
-    color: #10b981;
+    color: #198754;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    color: #10b981;
+    color: #198754;
 }
 
 .hero-description {
@@ -167,27 +168,25 @@ body {
 }
 
 .btn-primary {
-    background: #10b981;
-    color: #10291a;
+    background: #198754;
+    color: #fff;
 }
 
 .btn-primary:hover {
-    background: #059669;
+    background: #145c32;
     color: #fff;
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
+    box-shadow: 0 10px 25px rgba(25, 135, 84, 0.15);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #10b981;
-    border: 2px solid #10b981;
+    color: #198754;
+    border: 2px solid #198754;
 }
 
 .btn-secondary:hover {
-    background: #10b981;
-    color: #10291a;
-    transform: translateY(-2px);
+    background: #198754;
+    color: #fff;
 }
 
 .hero-image {
@@ -232,7 +231,7 @@ section {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: #10b981;
+    color: #198754;
     position: relative;
 }
 
@@ -250,7 +249,7 @@ section {
 
 /* About Section */
 .about {
-    background: #f4fffa;
+    background: #fff;
 }
 
 .about-content {
@@ -299,7 +298,7 @@ section {
 
 /* Skills Section */
 .skills {
-    background: #f4fffa;
+    background: #fff;
 }
 
 .skills-grid {
@@ -472,9 +471,9 @@ section {
     background: #fff;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 8px 32px rgba(16, 185, 129, 0.08);
+    box-shadow: 0 4px 24px rgba(25, 135, 84, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    color: #1a2e22;
+    color: #222;
 }
 
 .project-card:hover {
@@ -484,7 +483,7 @@ section {
 
 .project-image {
     height: 200px;
-    background: linear-gradient(135deg, #e6f9f0 0%, #b7f7d8 100%);
+    background: linear-gradient(135deg, #f5f6fa 0%, #e9f7ef 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -503,7 +502,7 @@ section {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
-    color: #10b981;
+    color: #198754;
 }
 
 .project-content p {
@@ -520,8 +519,8 @@ section {
 }
 
 .project-tech span {
-    background: #e6f9f0;
-    color: #10b981;
+    background: #e9f7ef;
+    color: #198754;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.875rem;
@@ -549,7 +548,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: #f4fffa;
+    background: #fff;
 }
 
 .contact-content {
@@ -563,7 +562,7 @@ section {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #10b981;
+    color: #198754;
 }
 
 .contact-info p {
@@ -581,11 +580,11 @@ section {
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
-    color: #1a2e22;
+    color: #495057;
 }
 
 .contact-item i {
-    color: #10b981;
+    color: #198754;
     font-size: 1.25rem;
     width: 20px;
 }
@@ -598,7 +597,7 @@ section {
 .social-link {
     width: 50px;
     height: 50px;
-    background: #10b981;
+    background: #198754;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -610,9 +609,9 @@ section {
 
 .social-link:hover {
     background: #fff;
-    color: #10b981;
+    color: #198754;
     transform: translateY(-3px);
-    border: 1px solid #10b981;
+    border: 1px solid #198754;
 }
 
 .contact-form {
@@ -652,8 +651,8 @@ section {
 
 /* Footer */
 .footer {
-    background: #e6f9f0;
-    color: #10b981;
+    background: #f5f6fa;
+    color: #198754;
     text-align: center;
     padding: 2rem 0;
 }
