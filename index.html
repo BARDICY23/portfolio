@@ -269,10 +269,9 @@
             <a href="https://www.linkedin.com/in/ahmedelbardisy23/" class="social-link"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
-        <form action="https://formsubmit.co/ahmedelbardicy18@gmail.com" method="POST" class="contact-form">
+        <form id="contactForm" class="contact-form">
           <!-- Hidden fields for better UX -->
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://dark-lord.xyz/">
           <div class="form-group">
             <input type="text" id="name" name="name" placeholder="Your Name" required>
           </div>
@@ -287,6 +286,9 @@
           </div>
           <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
+        <div id="form-success-message" style="display:none; color: #10b981; font-weight: bold; margin-top: 1rem;">
+          Thank you! Your message has been sent.
+        </div>
       </div>
     </div>
   </section>
