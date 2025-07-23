@@ -11,15 +11,15 @@ html {
 
 /* Dark Theme Base */
 body {
-    background: #10291a;
-    color: #e5e7eb;
+    background: #e6f9f0;
+    color: #1a2e22;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    background: transparent;
+    background: #fff;
 }
 
 /* Navigation */
@@ -108,8 +108,8 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #143d2a 0%, #10291a 100%);
-    color: #fff;
+    background: linear-gradient(135deg, #e6f9f0 0%, #c6f6e0 100%);
+    color: #1a2e22;
     padding-top: 80px;
 }
 
@@ -250,7 +250,7 @@ section {
 
 /* About Section */
 .about {
-    background: #18181f;
+    background: #f4fffa;
 }
 
 .about-content {
@@ -299,7 +299,7 @@ section {
 
 /* Skills Section */
 .skills {
-    background: #18181f;
+    background: #f4fffa;
 }
 
 .skills-grid {
@@ -469,12 +469,12 @@ section {
 }
 
 .project-card {
-    background: #143d2a;
+    background: #fff;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 32px rgba(16, 185, 129, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    color: #e5e7eb;
+    color: #1a2e22;
 }
 
 .project-card:hover {
@@ -484,7 +484,7 @@ section {
 
 .project-image {
     height: 200px;
-    background: linear-gradient(135deg, #143d2a 0%, #10b981 100%);
+    background: linear-gradient(135deg, #e6f9f0 0%, #b7f7d8 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -520,7 +520,7 @@ section {
 }
 
 .project-tech span {
-    background: #10291a;
+    background: #e6f9f0;
     color: #10b981;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
@@ -549,7 +549,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: #143d2a;
+    background: #f4fffa;
 }
 
 .contact-content {
@@ -581,7 +581,7 @@ section {
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
-    color: #e0e7ff;
+    color: #1a2e22;
 }
 
 .contact-item i {
@@ -612,6 +612,7 @@ section {
     background: #fff;
     color: #10b981;
     transform: translateY(-3px);
+    border: 1px solid #10b981;
 }
 
 .contact-form {
@@ -651,7 +652,7 @@ section {
 
 /* Footer */
 .footer {
-    background: #10291a;
+    background: #e6f9f0;
     color: #10b981;
     text-align: center;
     padding: 2rem 0;
